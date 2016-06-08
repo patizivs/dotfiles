@@ -1,0 +1,14 @@
+[core]
+	excludesfile = /Users/agris/.gitignore_global
+	editor = /usr/local/bin/vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Agris B
+	email = agris@cubesystems.lv
+[push]
+	default = simple
